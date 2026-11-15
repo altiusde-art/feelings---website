@@ -184,7 +184,7 @@ const music = document.getElementById("backgroundMusic");
 const MUSIC_TIME_KEY = "feelingsMusicTime";
 const MUSIC_PLAY_KEY = "feelingsMusicPlaying";
 
-music.volume = 0.7;
+music.volume = 1;
 
 async function resumeBackgroundMusic() {
     const savedTime = Number(sessionStorage.getItem(MUSIC_TIME_KEY) || 0);
